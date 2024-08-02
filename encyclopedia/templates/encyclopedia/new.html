@@ -1,0 +1,22 @@
+{% extends "encyclopedia/layout.html" %}
+
+{% block title %}
+    CS50 New Page
+{% endblock %}
+
+{% block body %}
+    <h1>New Page</h1>
+    <form action="{% url 'new' %}" method="post">
+        {% csrf_token %}
+        <div>
+            <label for="title">Title:</label>
+            <input autocomplete="off" type="text" name="title" id="title" required placeholder="Enter a New Title">
+        </div>
+        <div>
+            <label for="content">Content:</label>
+            <br>
+            <textarea autocomplete="off" name="content" id="content" required placeholder="Enter New Content in Markdown"></textarea>
+        </div>
+        <button type="submit">Save</button>
+    </form>
+{% endblock %}
