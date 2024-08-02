@@ -1,0 +1,14 @@
+{% extends "encyclopedia/layout.html" %}
+
+{% block title %}
+    CS50 Edit Page
+{% endblock %}
+
+{% block body %}
+    <h1>Edit Page</h1>
+    <form action="{% url 'edit' title=title %}" method="post">
+        {% csrf_token %}
+        <textarea autocomplete="off" name="content" required placeholder="New Content in Markdown">{{ content }}</textarea>
+        <button type="submit">Save</button>
+    </form>
+{% endblock %}
