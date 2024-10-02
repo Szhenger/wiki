@@ -97,4 +97,4 @@ Ensure that headings, bold text, links, lists, and other Markdown syntax are cor
 
 ## Credit
 
-This problem came from [CS50's Web Programming with Python and JavaScript](https://cs50.harvard.edu/web/2020/projects/1/wiki/).
+This problem came from [CS50's Web Programming with Python and JavaScript](https://cs50.harvard.edu/web/2020/projects/1/wiki/) and any solution here explicitly is for educational purposes only.
