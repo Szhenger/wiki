@@ -95,3 +95,6 @@ The Wiki project allows users to view, create, edit, search, and explore encyclo
 
 Ensure that headings, bold text, links, lists, and other Markdown syntax are correctly converted to their HTML equivalents before being displayed on the entry page.
 
+## Credit
+
+This problem came from [CS50's Web Programming with Python and JavaScript](https://cs50.harvard.edu/web/2020/projects/1/wiki/).
